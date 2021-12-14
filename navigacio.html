@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #e02caa;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #6a169b;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a class="active" href="#home">Főoldal</a>
+  <a href="https://fazekasluca.github.io/kollazs/keplink.html">Feladat1</a>
+  <a href="https://fazekasluca.github.io/listak/">Feladat2</a>
+  <a href="https://fazekasluca.github.io/orarend/">Feladat3</a>
+</div>
+
+<div class="content">
+  <h2>Fazekas Luca oldala</h2>
+  <p> Miskolci SZC Kandó Kálmán Informatikai Technikum tanulója vagyok.</p>
+  <p>A 9.-E osztályba járok.</p>
+</div>
+<h3>Táblázat készítése</h3>
+
+</body>
+</html>
