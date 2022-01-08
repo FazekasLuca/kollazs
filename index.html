@@ -1,32 +1,85 @@
 <!DOCTYPE html>
+<html lang="hu">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<title>FL oldala</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fazekas Luca oldala</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(150, 18, 106);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: rgb(253, 14, 142);
+  color: black;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(168, 80, 146);
+  color: deeppink;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
 </head>
-<body style="background-color: gray;">
+<body style="background-color: plum;">
 
-<h1  style="color: blueviolet;">Fazekas Luca</h1>
-<h2 style="background-color: dodgerblue;">Fazekas Luca</h2>
-<h3 style=color:darkgoldenrod>Fazekas Luca</h3>
-<h4 style="color: darkolivegreen;">Fazekas Luca</h4>
-<h5 style="color: darksalmon;">Fazekas Luca</h5>
-<h6 style="color: deeppink;">Fazekas Luca</h6>
-<p>1.feladat
-    <a href="https://fazekasluca.github.io/kollazs/keplink.html">Képlink</a>
-    </p>
-<p>2.feladat
-    <a href="https://fazekasluca.github.io/listak/">Listák</a>
-    </p>
-    <p>3.feladat
-        <a href="https://fazekasluca.github.io/orarend/">Órarend</a>
-    </p>
-    
-       
-<p>Ez itt a kollazsom</p>
+<div class="sidebar">
+  <a class="active" href="https://fazekasluca.github.io/kollazs/">Kollázs</a> 
+  <a href="https://fazekasluca.github.io/kollazs/keplink.html">Képlink</a>
+  <a href="https://fazekasluca.github.io/listak/">Listák</a>
+  <a href="https://fazekasluca.github.io/orarend/">Órarend</a>
+</div>
 
-<img src="https://github.com/FazekasLuca/kollazs/blob/main/collage.jpg?raw=true" alt="kollázs" title="Itt a kép" width=500>
+<div class="content">
+  <h1 style="color: rgb(253, 14, 142);">Fazekas Luca</h1>
+  <h2 style="color: rgb(165, 53, 91);">Fazekas Luca</h2>
+  <h3 style="color: rgb(150, 18, 106);">Fazekas Luca</h3>
+  <h4 style="color: rgb(179, 94, 141);">Fazekas Luca</h4>
+  <h5 style="color: rgb(168, 80, 146);">Fazekas Luca</h5>
 
+  <p>A kollázs képem:</p>
+  <img src="https://fazekasluca.github.io/kollazs/collage.jpg" alt="Kollázs kép">
 
+</div>
 </body>
 </html>
