@@ -33,9 +33,73 @@
         th, td {
             text-align: center;
         }
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    font-family: 'Moon Dance', cursive;
+    font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(150, 18, 106);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: rgb(253, 14, 142);
+  color: black;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(168, 80, 146);
+  color: deeppink;
+}
+
+div.content {
+font-family: 'Playfair Display', serif;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
     </style>
 </head>
 <body>
+<div class="sidebar">
+  <a href="https://fazekasluca.github.io/kollazs/">Kollázs</a> 
+  <a href="https://fazekasluca.github.io/kollazs/keplink.html">Képlink</a>
+  <a href="https://fazekasluca.github.io/kollazs/listak.html">Listák</a>
+  <a class="active" href="https://fazekasluca.github.io/kollazs/orarend.html">Órarend</a>
+</div>
+<div class="content">
   <p align="center">9.E Órarend</p>
     <table>
         <tr>
@@ -124,6 +188,6 @@
           </tr>
 
     </table>
-    
+</div>
 </body>
-</html>
+</html>kollazs
