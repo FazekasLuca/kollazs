@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Luca oldala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a href="https://fazekasluca.github.io/kollazs/">RÓLAM</a>
+        <a href="https://fazekasluca.github.io/kollazs/keplink.html">KÉPLINK</a>
+        <a href="https://fazekasluca.github.io/kollazs/listak.html">LISTÁK</a>
+        <a href="https://fazekasluca.github.io/kollazs/orarend.html">ÓRAREND</a>
+        <a href="https://pepe1125.github.io/kollazs/evszakok.html">ÉVSZAKOK</a>
+        <a class="active" href="https://pepe1125.github.io/kollazs/urlap.html">ŰRLAP</a>
+        <a href="https://pepe1125.github.io/kollazs/Informatika és távközlési alapok I. Héczei_Ádám.pdf">TÁVKÖZLÉS</a>
+    </div>
+
+    <div class="content">
+
+        <form name="rendeles">
+            <h1>Ásvány karkötők</h1>
+            <fieldset>
+                <legend>Vevő adatai:</legend>
+                <p><label>Név: <input type="text" name="nev">
+                        <small>Vezetéknév/Keresztnév</small></label></p>
+                <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
+                <div class="karkötők">
+                    <div>
+                        <img src="https://www.asvanykarkotok.hu/webshop/products/getPicture/pid:2382/type:main/thumb:false/pictid:/virtual.jpg" alt="">
+                        <p>Rózsakvarc, roppantott angyal aura kvarc, Swarovski zöld gyöngy, roppantott hegyikristály női ásvány karkötő.</p>
+                    </div>
+                    <div>
+                        <img src="https://www.asvanykarkotok.hu/webshop/products/getPicture/pid:2338/type:main/thumb:false/pictid:/virtual.jpg" alt="">
+                        <p>Roppantott hegyikristály, kunzit, kalcedon, kiváló minőségű hemimorfit ásvány karkötő kis cirkóniás köztesekkel.</p>
+                    </div>
+                    <div>
+                        <img src="https://www.asvanykarkotok.hu/webshop/products/getPicture/pid:2365/type:main/thumb:false/pictid:/virtual.jpg" alt="">
+                        <p>8mm-es arany obszidián, fazettált rose gold hematit korong ásvány karkötő.</p>
+                    </div>
+                    <div>
+                        <img src="https://www.asvanykarkotok.hu/webshop/products/getPicture/pid:881/type:main/thumb:false/pictid:/virtual.jpg" alt="">
+                        <p>ejkvarc, hegyikristály, rózsakvarc nyugtató ásvány karkötő.</p>
+                    </div>
+                    <div>
+                        <img src="https://www.asvanykarkotok.hu/webshop/products/getPicture/pid:1094/type:main/thumb:false/pictid:/virtual.jpg" alt="">
+                        <p>Hegyikristály, amazonit, holdkő, labradorit, regeneráló, boldogságfokozó karkötő.</p>
+                    </div>
+                    <div>
+                        <img src="https://www.asvanykarkotok.hu/webshop/products/getPicture/pid:1645/type:main/thumb:false/pictid:/virtual.jpg" alt="">
+                        <p>Gyönyörű 2 fajta valódi türkiz, akvamarin, holdkő, amazonit anya-lánya páros ásvány karkötő.</p>
+                    </div>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>Karkötő mérete</legend>
+                <p><label><input type="radio" name="meret" value="17cm">17cm</label></p>
+                <p><label><input type="radio" name="meret" value="18cm">18cm</label></p>
+                <p><label><input type="radio" name="meret" value="19cm">19cm</label></p>
+                <p><label><input type="radio" name="meret" value="20cm">20cm</label></p>
+                <p><label><input type="radio" name="meret" value="21cm">21cm</label></p>
+                <p><label><input type="radio" name="meret" value="22cm">22cm</label></p>
+                <p><label><input type="radio" name="meret" value="23cm">23cm</label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Karkötő hatása</legend>
+                <p><label><input type="checkbox" name="feltet1" value="sonka">sebgyógyulásra</label></p>
+                <p><label><input type="checkbox" name="feltet2" value="sajt">vérkeringés fokozó</label></p>
+                <p><label><input type="checkbox" name="feltet3" value="gomba">ízületi bántalmakra</label></p>
+                <p><label><input type="checkbox" name="feltet3" value="gomba">szemproblémákra</label></p>
+                <p><label><input type="checkbox" name="feltet3" value="gomba">nyugtató hatású</label></p>
+                <p><label><input type="checkbox" name="feltet3" value="gomba">görcsoldó</label></p>
+                <p><label><input type="checkbox" name="feltet3" value="gomba">sejtregeneráló</label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Kosár</legend>
+                <p><label>mennyiség: <input type="number" name="mennyiseg"> db</label></p>
+                <p><label>egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
+                <p><label>Kért szállítási idő: <input type="time" name="kiszallitas"></label></p>
+                <br>
+                <input type="reset" name="visszaallitas">
+                <input type="submit" name="kuldes">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>FL Copyright © </p>
+    </div>
+
+</body>
+
+</html>
