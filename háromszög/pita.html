@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Háromszög</title>
+</head>
+
+<body>
+    <img src="háromszög.png" alt="">
+    <fieldset style="width: fit-content;">
+        <input type="number" name="a oldal" id="aold" placeholder="a oldal értéke"><br>
+        <input type="number" name="b oldal" id="bold" placeholder="b oldal értéke"><br>
+        <button style="float: right;" onclick="szamol(aold.value,bold.value)">SZÁMÍT</button>
+    </fieldset>
+    <p id="eredm">Eredmény </p>
+    <script>
+        function szamol(a, b){
+        var c = 0
+        c = Math.sqrt(a * a + b * b)
+        document.getElementById("eredm").innerHTML = c}
+    </script>
+
+</body>
+
+</html>
